@@ -1,5 +1,5 @@
 :root{
-    --primary: #4628ff;
+    --primary: #0C3242;
     --warning: #ffd028;
     --danger: #eb420f;
     --success: #28ff33;
@@ -9,6 +9,9 @@
 
 .btn {
     font-family: "Roboto", sans-serif;
+    position: absolute;
+    /* margin-top: -98vh;
+    margin-left: 90vw; */
     font-weight: 400;
     border-radius: 10px;
     cursor: pointer;

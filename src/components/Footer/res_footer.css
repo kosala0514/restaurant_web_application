@@ -1,0 +1,13 @@
+.para{
+    width: 100vw;
+    height: 8vh;
+    position: absolute;
+    margin-top: 86vh;
+    background-color: #0C3242;
+    color: white;
+    z-index: 1000;
+}
+
+.para.h1{
+    font-size: 12px;
+}

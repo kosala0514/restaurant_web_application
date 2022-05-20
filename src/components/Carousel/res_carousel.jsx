@@ -50,6 +50,7 @@ const ResCarousel = (props) => {
     return (
         <div className="slider__container">
             <SlidesContent activeIndex={activeIndex} sliderImage={sliderImage}/>
+            
             <Arrows 
                 prevSlide={() => setActiveIndex(activeIndex < 1 ? len : activeIndex - 1)}
                 nextSlide={() => setActiveIndex(activeIndex === len ? 0 : activeIndex + 1)}

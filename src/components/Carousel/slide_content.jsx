@@ -1,8 +1,10 @@
 import React from "react";
+import Footer from "../Footer/res_footer";
 
 function SliderContent({ activeIndex, sliderImage }) {
   return (
     <section>
+    <Footer/>
       {sliderImage.map((slide, index) => (
         <div
           key={index}

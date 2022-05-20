@@ -4,7 +4,7 @@
 }
   
 :root {
-    --heights: 90vh;
+    --heights: 92vh;
     --widths: 100%;
 }
   
@@ -12,8 +12,9 @@
     height: var(--heights);
     width: var(--widths);
     position: relative;
-    margin: auto;
+    margin: 0;
     overflow: hidden;
+    z-index: 0;
   }
   
   .__active {
@@ -46,7 +47,7 @@
     position: absolute;
     text-align: center;
     top: 40%;
-    z-index: 10;
+    z-index: 0;
   }
   
   .slide__text {
@@ -57,7 +58,7 @@
   .__prev,
   .__next {
     cursor: pointer;
-    z-index: 100;
+    z-index: 1;
     position: absolute;
     top: 50%;
     width: auto;
@@ -87,7 +88,7 @@
     display: flex;
     top: 85%;
     justify-content: center;
-    z-index: 200;
+    z-index: 0;
   }
   
   .__dot {
